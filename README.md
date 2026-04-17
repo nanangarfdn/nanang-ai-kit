@@ -2,10 +2,10 @@
 
 **A drop-in toolkit that makes AI coding assistants learn, remember, and improve over time.**
 
+[![npm version](https://img.shields.io/npm/v/nanang-ai-kit.svg)](https://www.npmjs.com/package/nanang-ai-kit)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)]()
-[![Claude Code](https://img.shields.io/badge/built%20for-Claude%20Code-blueviolet.svg)]()
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![npm downloads](https://img.shields.io/npm/dm/nanang-ai-kit.svg)](https://www.npmjs.com/package/nanang-ai-kit)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/nanangarfdn/nanang-ai-kit)
 
 ---
 
