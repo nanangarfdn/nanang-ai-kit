@@ -1,0 +1,22 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "type": "command",
+        "command": "bash .claude/hooks/nng-correction-detector.sh"
+      }
+    ],
+    "PreCompact": [
+      {
+        "type": "command",
+        "command": "bash .claude/hooks/nng-precompact-guard.sh"
+      }
+    ],
+    "PostResponse": [
+      {
+        "type": "command",
+        "command": "bash .claude/hooks/nng-session-digest.sh"
+      }
+    ]
+  }
+}
