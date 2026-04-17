@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const TEMPLATE_DIR = path.join(__dirname, '..', 'template');
-const TARGET_DIR = process.cwd();
+const TARGET_DIR = process.env.INIT_CWD || process.cwd();
 
 const args = process.argv.slice(2);
 const command = args[0];
@@ -78,6 +78,9 @@ function init() {
 
 switch (command) {
   case 'init':
+    init();
+    break;
+  case 'postinstall':
     init();
     break;
   case 'help':

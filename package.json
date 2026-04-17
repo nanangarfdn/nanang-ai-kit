@@ -1,9 +1,12 @@
 {
   "name": "nanang-ai-kit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "AI-assisted development toolkit — drop-in scaffolding that makes any AI coding assistant smarter over time",
   "bin": {
     "nanang-ai-kit": "./bin/cli.js"
+  },
+  "scripts": {
+    "postinstall": "node bin/cli.js postinstall"
   },
   "files": [
     "bin/",
