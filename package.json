@@ -1,0 +1,29 @@
+{
+  "name": "nanang-ai-kit",
+  "version": "1.0.0",
+  "description": "AI-assisted development toolkit — drop-in scaffolding that makes any AI coding assistant smarter over time",
+  "bin": {
+    "nanang-ai-kit": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "template/"
+  ],
+  "keywords": [
+    "ai",
+    "claude",
+    "coding-assistant",
+    "devkit",
+    "scaffolding",
+    "developer-tools",
+    "productivity",
+    "token-efficiency"
+  ],
+  "author": "nanangarfdn",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nanangarfdn/nanang-ai-kit.git"
+  },
+  "homepage": "https://github.com/nanangarfdn/nanang-ai-kit#readme"
+}

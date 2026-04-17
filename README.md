@@ -323,32 +323,20 @@ The system is designed so that **no manual maintenance is required for basic ope
 
 ## Quick Start
 
-### 1. Copy into your project
+### Option 1: npm (recommended)
 
 ```bash
-# Clone the kit
-git clone https://github.com/user/nanang-ai-kit.git /tmp/nanang-ai-kit
-
-# Copy the toolkit files into your project
-cp -r /tmp/nanang-ai-kit/.claude your-project/.claude
-cp /tmp/nanang-ai-kit/CLAUDE.md your-project/CLAUDE.md
-cp /tmp/nanang-ai-kit/.gitignore your-project/.claude/.gitignore
-
-# Or if your project already has a .gitignore, append the relevant entries
-cat /tmp/nanang-ai-kit/.gitignore >> your-project/.gitignore
+npx nanang-ai-kit init
 ```
 
-### 2. Initialize for your project
+### Option 2: Manual
 
-Open your project with an AI coding assistant that supports the `.claude/` convention, then run:
+1. Copy `template/.claude/` and `template/CLAUDE.md` into your project root
+2. Make hooks executable: `chmod +x .claude/hooks/*.sh`
 
-```
-/nng-init-nanang-ai
-```
+### Then
 
-This scans your workspace, detects your tech stack, and generates project-specific rules for code style, testing, and verification.
-
-### 3. Start working
+Run `/nng-init-nanang-ai` in your AI assistant to auto-detect your tech stack.
 
 The toolkit is now active. Hooks fire automatically. Rules are loaded on every session. Run commands as needed:
 
